@@ -9,7 +9,10 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(body: _MenuView());
+    return  Scaffold(
+      appBar: AppBar(title: const Text('J.R.R Tolkien'), centerTitle: true),
+      body: _MenuView()
+    );
   }
 }
 
