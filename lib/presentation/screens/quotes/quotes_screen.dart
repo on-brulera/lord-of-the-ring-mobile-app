@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-class BookScreen extends StatelessWidget {
 
-  static String name = 'book-screen';
+class QuotesScreen extends StatelessWidget {
 
-  const BookScreen({super.key});
+  static String name = 'quotes-screen';
+
+  const QuotesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
